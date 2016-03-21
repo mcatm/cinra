@@ -27,7 +27,7 @@ p {
 		padding: 40px 30px;
 		background: #fff;
 		@each $prefix in $prefixList {
-			#{$prefix}border-radius: 4px;
+			#{$prefix}border-radius: 8px;
 		}
 		@each $prefix in $prefixList {
 			#{$prefix}box-sizing: border-box;
